@@ -9,8 +9,7 @@ html, body {
 	overflow-y: auto;
 }
 body {
-		background-image: url("/img/cloud.png");
-		background-color: linear-gradient(to bottom, #0B2342, #0A0D1C, #0A0D1C);
+		background-image: linear-gradient(to bottom, #0B2342, #0A0D1C, #0A0D1C) url("/img/cloud.png");
 		background-repeat: no-repeat;
 		background-position: bottom;
 }
