@@ -214,8 +214,8 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
-	html, body {
-		background-image: url("/img/cloud-s.png"), linear-gradient(to bottom, #0B2342, #0A0D1C, #0A0D1C);
+	body {
+		background: url("img/cloud-s.png"), linear-gradient(to bottom, #0B2342, #0A0D1C, #0A0D1C);
 	}
 
 	h1 {
