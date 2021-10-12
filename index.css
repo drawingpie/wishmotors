@@ -260,6 +260,7 @@ footer {
 
 	#section1 .link-wrap .link-unit {
 		text-align: center !important;
+		margin: 0 !important;
 	}
 
 	#section1 .link-wrap .link-unit .btn {
