@@ -7,7 +7,7 @@ html, body {
 	height: auto;
 	overflow-x: hidden;
 	overflow-y: auto;
-	background-image: url("/img/cloud.png"), linear-gradient(to bottom, #0B2342, #0A0D1C, #0A0D1C);
+	background-image: linear-gradient(to bottom, #0B2342, #0A0D1C, #0A0D1C), url("/img/cloud.png");
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
