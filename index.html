@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1 ,minimum-scale=1, maximum-scale=1, width=device-width" />
+
+	<meta name="subject" content="WISHMOTORS" />
+	<meta name="title" content="세상 모든 전기차 판매 플랫폼, 위시모터스" />
+	<meta name="description" content="세상 모든 전기차 판매 플랫폼" />
+	<meta name="keywords" content="위시모터스, 전기차, 전기차판매, 쎄보, 포트로, 이브이제타" />
+
+	<meta property="og:title" content="프리한 디자이너의 포트폴리오, 위시제이">
+	<meta property="og:url" content="https://www.wishj.net/">
+	<meta property="og:image" content="image/logomobile.png">
+	<meta property="og:description" content="세상 모든 전기차 판매 플랫폼" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="프리한 디자이너의 포트폴리오, 위시제이">
+	<meta name="twitter:url" content="https://www.wishj.net/">
+	<meta name="twitter:image" content="image/logomobile.png">
+	<meta name="twitter:description" content="세상 모든 전기차 판매 플랫폼" />
+
+	<link rel="icon" sizes="32x32" href="img/32favicon.png">
+	<link rel="apple-touch-icon" sizes="196x196" href="img/196favicon.png">
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<link rel="stylesheet" type="text/css" href="animation.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+	<title>위시모터스</title>
+</head>
+
+<body>
+	<div class="constelacao"></div>
+	<div class="chuvaMeteoro"></div>
+	<img id="logo" src="img/logo.png">
+	<div class="inner">
+		<section id="section0">
+
+			<h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="1500">
+				<span class="title_1">세상 모든 전기차 판매 플랫폼</span><br>
+				<span class="title_2">위시모터스</span>
+			</h1>
+			<img src="img/earth.png" id="earth" alt="지구">
+		</section>
+
+		<div id="section1">
+			<span class="section_title">온라인 전시장</span>
+			<!-- <div class="menu"> -->
+				<div class="car-wrap">
+					<span class="car car-1"><img src="img/danigovan.png"></span>
+					<span class="car car-2"><img src="img/potro.png"></span>
+					<span class="car car-3"><img src="img/cevo.png"></span>
+					<span class="car car-4"><img src="img/evz.png"></span>
+				</div>
+
+				<ul class="link-wrap">
+					<li class="link-unit">
+						<a data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="1500" class="btn" href="https://www.dcmsy.co.kr/" target="_blank">
+							<span class="name">다니고밴</span><br><span class="sub_name">다목적 소형 전기화물차</span>
+						</a>
+					</li>
+					<li class="link-unit">
+						<a data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="350" data-aos-duration="1500" class="btn" href="https://wmpotro.creatorlink.net/" target="_blank">
+							<span class="name">포트로</span><br><span class="sub_name">소형 물류의 편리성과<br>안정성을 추구</span>
+						</a>
+					</li>
+
+					<li class="link-unit">
+						<a data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400" data-aos-duration="1500" class="btn" href="https://wishmotorscevo.creatorlink.net/" target="_blank">
+							<span class="name">쎄보 C</span><br><span class="sub_name">대한민국 최초의<br>자체개발 초소형 전기차</span>
+						</a>
+					</li>
+
+					<li class="link-unit">
+						<a data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="450" data-aos-duration="1500" class="btn" href="https://wmevz.creatorlink.net/" target="_blank">
+							<span class="name">스마트 EV-Z</span><br><span class="sub_name">국내 유일, <br>미니 전기차의 표준이 되다</span>
+						</a>
+					</li>
+				</ul>
+
+			<!-- </div> -->
+		</div>
+
+		<footer>
+			<span class="footer_text">
+				WISH MOTORS<br>
+				회사명: 위시모터스 | 서울시 용산구 서빙고로51길 64<br>
+				문의: TEL.1588-5493, 010-3373-8780<br>
+				Copyright ⓒ 2021 WISH MOTORS. All rights reserved.
+			</span>
+		</footer>
+	</div>
+
+	<!-- scroll animation -->
+	<script>
+		let earth = document.getElementById('earth');
+
+		window.addEventListener('scroll', function() {
+			let value = window.pageYOffset;
+			earth.style.bottom = value * 0.5 + 'px';
+		});
+	</script>
+	<!-- AOS -->
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
