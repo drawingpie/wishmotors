@@ -14,7 +14,7 @@ function init() {
 
 	var estrela = "";
 	var qtdeEstrelas = 250;
-	var noite = document.querySelector(".constelacao");
+	var noite = document.querySelector(".star");
 	var widthWindow = window.innerWidth;
 	var heightWindow = window.innerHeight;
 
@@ -38,9 +38,9 @@ function init() {
 		setTimeout(carregarMeteoro, numeroAleatorio);
 		numeroAleatorio = getRandomArbitrary(5000, 10000);
 		var meteoro = "<div class='meteoro " + style[getRandomArbitrary(0, 4)] + "'></div>";
-		document.getElementsByClassName('chuvaMeteoro')[0].innerHTML = meteoro;
+		document.getElementsByClassName('sh_star')[0].innerHTML = meteoro;
 		setTimeout(function() {
-			document.getElementsByClassName('chuvaMeteoro')[0].innerHTML = "";
+			document.getElementsByClassName('sh_star')[0].innerHTML = "";
 		}, 1000);
 	};
 
